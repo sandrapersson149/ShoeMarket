@@ -17,7 +17,7 @@ function App() {
       <Router>
         <Switch>
           <Route path='/service' component={Service}></Route>
-          <Route path='/men' component={Men}></Route>
+          <Route path='/man' component={Men}></Route>
           <Route path='/woman' component={Woman}></Route>
           <Route path='/about' component={About}></Route>
           <Route path='/' component={Landing}></Route>
